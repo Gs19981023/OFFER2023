@@ -1,4 +1,4 @@
-package Help.JUC;
+package JUC;
 
 /**
  * @ClassName Demo01Ticket

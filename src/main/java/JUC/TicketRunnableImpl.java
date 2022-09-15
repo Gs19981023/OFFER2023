@@ -1,4 +1,4 @@
-package Help.JUC;
+package JUC;
 
 import org.junit.Test;
 
