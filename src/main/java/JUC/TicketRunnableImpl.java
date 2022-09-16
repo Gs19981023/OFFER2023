@@ -53,7 +53,6 @@ class Thread04 extends Thread{
     public void run() {
         while (true){
             synchronized (obj) {
-
                 if (ticket > 0) {
                     try {
                         Thread.sleep(100);          //模拟售票需要的时间
