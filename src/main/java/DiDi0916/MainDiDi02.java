@@ -5,6 +5,7 @@ import javax.sound.midi.Soundbank;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @ClassName MainDiDi02
@@ -15,6 +16,8 @@ import java.util.Scanner;
  **/
 public class MainDiDi02 {
     public static void main(String[] args) {
+        MainKD03 mKD03 = new MainKD03();
+        int f = mKD03.k;
         Scanner sc = new Scanner(System.in);
         String params = sc.nextLine();
         Map<Integer,Character> map = new HashMap<>();

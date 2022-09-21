@@ -8,6 +8,7 @@ package JUC;
  * @Version 1.0
  **/
 public class Demo01Ticket {
+    public int testInt;
     public static void main(String[] args) {
         TicketRunnableImpl tck=new TicketRunnableImpl();
         Thread thread1= new Thread(tck,"窗口1");

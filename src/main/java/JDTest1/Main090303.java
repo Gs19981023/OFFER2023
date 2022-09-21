@@ -1,5 +1,7 @@
 package JDTest1;
 
+import JUC.Demo01Ticket;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,6 +19,8 @@ public class Main090303 {
     static LinkedList<Character> path;
     static boolean[] used;
     public static void main(String[] args) throws IOException {
+        Demo01Ticket d = new Demo01Ticket();
+        int t = d.testInt;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String params = br.readLine();
         char[] chars = params.toCharArray();

@@ -21,7 +21,7 @@ public class QuickSort {
         System.out.println(Arrays.toString(a));
     }
 
-
+    //快速排序
     public static void QuickSort(int[] nums,int low, int high) {
         int i,j;
         if(low > high) return;
